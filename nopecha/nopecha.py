@@ -5,7 +5,7 @@ import requests, time
 
 
 
-class New:
+class Client:
     def __init__(self, api_key: str) -> None:
         if not len(api_key) == 10:
             raise ValueError("API key must be 10 characters long")
